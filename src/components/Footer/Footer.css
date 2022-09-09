@@ -1,0 +1,31 @@
+.footer {
+ margin-top: 3rem;
+ background-color: white;
+ height: 100px;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+}
+
+.footer img {
+ margin-bottom: 1rem;
+}
+
+.p_footer {
+ color: var(--color-grey);
+}
+
+
+/* .footer_grid  {
+ display: grid;
+ grid-template-columns: 40% 20% 20% 20% ;
+ margin: 3rem 1rem 2rem 1rem;
+ grid-gap: 1rem;
+ color: white;
+}
+
+.footer_content {
+ display: flex;
+ align-items: center;
+
+} */

@@ -1,0 +1,47 @@
+
+.flex {
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.contact {
+
+ justify-items: center; 
+ align-items: center;
+}
+
+.contact-header {
+ text-align: center;
+}
+
+.contact-details {
+ align-self: flex-start;
+ flex:1;
+ flex-direction: column;
+text-align: center;}
+
+.contact-details h6{
+ color: var(--color-grey);
+ font-weight: 400;
+}
+
+.contact-form {
+flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+ .contact-details {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+ 
+ }
+ .contact-header {
+  display: flex;
+  justify-content: center;
+
+ }
+
+}
